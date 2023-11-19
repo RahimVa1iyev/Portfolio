@@ -25,6 +25,15 @@ const Experience = () => {
             Understand the principles of responsive design to ensure that the application looks correctly on different sizes and devices.
             Proficiency in using version control systems such as Git."
           />
+            <ResumeCard
+            title="HobyLoc"
+            subTitle="Front-End Developer - (2023 - Present)"
+            result="Bakı"
+            des="Leading the development and customization of the front-end for the company's websites and web applications.Using HTML, CSS, and JavaScript,Redux to create websites and applications based on innovative and integrated design principles.
+            Implementing code optimization on websites for high-speed and efficient performance.
+            Integrating RESTful APIs to collaborate with the backend for overall progress.
+            Participating in version control and code review processes to enhance coding efficiency"
+          />
           <ResumeCard
             title="State Employment Agency / Jed Academy"
             subTitle="Front-End Developer Intern Program - (2023 - Present)"

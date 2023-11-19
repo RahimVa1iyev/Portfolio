@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const ResumeCard = ({ title, subTitle, result, des, front, back }) => {
+const ResumeCard = ({ title, subTitle, result, des, front, back,href }) => {
   return (
     <div className="w-full h-1/3 group flex">
       <div className="w-10 h-[6px] bgOpacity mt-16 relative">
@@ -46,11 +46,19 @@ const ResumeCard = ({ title, subTitle, result, des, front, back }) => {
           <p className="text-sm md:text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300">
             {des}
           </p>
+
+        
         </div>
-        <button>
-          <a href='src/assets/images/diplom-software.jpg' download='diplom-software.jpg'>Download</a>
-        </button>
+          {
+            href && 
+            <div className='btn-div'>
+            <a className='btn-download' href='https://github.com/RahimVa1iyev/Portfolio/blob/master/src/assets/images/diplom-software.jpg' target='_blank'>Download</a>
+
+            </div>
+          }
+
       </div>
+   
     </div>
   );
 }

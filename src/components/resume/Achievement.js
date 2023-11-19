@@ -13,20 +13,14 @@ const Achievement = () => {
         <div className="py-12 font-titleFont flex flex-col gap-4">
           <h2 className="text-4xl font-bold">Achievement</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full  border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Software Development"
+            subTitle="Code Academy"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="I received a 7-month Full-Stack Programming course at Code Academy with an Honors degree with an average of 93.5"
+            href ="https://github.com/RahimVa1iyev/Portfolio/blob/master/src/assets/images/diplom-software.jpg"
           />
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-       
         </div>
       </div>
     
