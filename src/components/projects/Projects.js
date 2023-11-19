@@ -97,7 +97,7 @@ const Projects = () => {
           des="It is a Portfolio site about myself and the main projects I have created since I started programming. The technologies I use are HTML, Taiwind CSS, JavaScript, React, Framer Motion."
           src={pr5}
           gitLink ='https://github.com/RahimVa1iyev/Portfolio'
-          vercel='https://rb.gy/vvtexa'
+          vercel='https://portfolio-oj96da1wr-codes-projects-88be318f.vercel.app/'
         /></SwiperSlide>
         <SwiperSlide>
          <ProjectsCard
