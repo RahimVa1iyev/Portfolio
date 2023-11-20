@@ -22,19 +22,19 @@ const ProjectsCard = ({ title, des, src, front, back, gitLink, gitLink2, vercel,
               {
                 gitLink2 ? (
                   <div className='flex items-center gap-[2px]'>
-                    <a title='front-end' className='hover:contents' target='_blank' href={gitLink}>
+                    <a title='front-end' className='hover:contents' target='_blank' href={gitLink} rel="noreferrer">
                       <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                         <BsGithub />
                       </span>
                     </a>
-                    <a title='backend' target='_blank' href={gitLink2}>
+                    <a title='backend' target='_blank' href={gitLink2} rel="noreferrer">
                       <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                         <BsGithub />
                       </span>
                     </a>
                   </div>
                 ) : gitLink && (
-                  <a href={gitLink}>
+                  <a target='_blank'  href={gitLink} rel="noreferrer">
                     <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                       <BsGithub />
                     </span>
@@ -46,19 +46,19 @@ const ProjectsCard = ({ title, des, src, front, back, gitLink, gitLink2, vercel,
 {
                 vercel2 ? (
                   <div className='flex items-center gap-[2px]'>
-                    <a title='user' className='hover:contents' target='_blank' href={vercel}>
+                    <a title='user' className='hover:contents' target='_blank' href={vercel} rel="noreferrer">
                       <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                         <FaGlobe />
                       </span>
                     </a>
-                    <a title='admin' target='_blank' href={vercel2}>
+                    <a title='admin' target='_blank' href={vercel2} rel="noreferrer">
                       <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                         <FaGlobe />
                       </span>
                     </a>
                   </div>
                 ) : (
-                  <a href={vercel}>
+                  <a target='_blank'  href={vercel} rel="noreferrer">
                     <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                       <FaGlobe />
                     </span>

@@ -76,12 +76,12 @@ const Navbar = () => {
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                    <a target='_blank' href="https://github.com/RahimVa1iyev">
+                    <a target='_blank' href="https://github.com/RahimVa1iyev" rel="noreferrer">
                     <FaGithub />
                     </a>
                   </span>
                   <span className="bannerIcon">
-                    <a target='_blank' href="https://www.linkedin.com/in/rahim-valiyev/">
+                    <a target='_blank' href="https://www.linkedin.com/in/rahim-valiyev/" rel="noreferrer">
                     <FaLinkedinIn />
                     </a>
                   </span>
