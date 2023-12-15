@@ -81,16 +81,6 @@ const Projects = () => {
 
           />
         </SwiperSlide>
-        <SwiperSlide>
-          <ProjectsCard
-            title="E-commerce Website"
-            des='This is an e-commerce website I created for selling shoes'
-            front='Front-End: HTML, CSS, SASS, Bootstrap, JavaScript.'
-            back='Backend : C#, ASP.Net Core MVC'
-            gitLink ='https://github.com/RahimVa1iyev/mvc-ecommerce'
-            vercel='http://rahimcode-001-site1.ftempurl.com/'
-            src={pr3}
-          /></SwiperSlide>
         <SwiperSlide>   
              <ProjectsCard
           title="Portfolio"
